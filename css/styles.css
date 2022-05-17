@@ -149,7 +149,7 @@ body {
     outline: none;
     position: relative;
     padding: 10px;
-    margin-top: 380px;
+    margin-top: 374px;
     margin-bottom: 0px;
 }
   
@@ -600,13 +600,75 @@ button:hover::after, button:focus::after {
 }
 
 @media only screen and (min-width: 1700px) {
-    .info-background-top {
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 200px 844px 0 844px;
-        border-color: transparent #E47153 transparent #E47153;
-        margin-top: -80px;
+    .navbar {
+        width: 100%;
+        height: 100px;
+        background: #FDAD6B;
+        box-shadow: 0px 0px 50px rgba(255, 172, 48, 0.75);
+        border-radius: 16px;
+        margin-top: 30px;
+        position: relative;
+    }
+    
+    .navbar-icon {
+        width: 50px;
+        height: 50px;
+        float: left;
+        margin-top: 23.5px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    
+    .navbar-title {
+        font-size: 29px;
+        margin: 0;
+        padding-top: 32.8px;
+    }
+
+    .navbar-button-twitter {
+        width: 50px;
+        height: 50px;
+        border-radius: 11px;
+        margin-top: 23.5px;
+        margin-right: 22px;
+    }
+
+    .navbar-button-discord {
+        width: 50px;
+        height: 50px;
+        border-radius: 11px;
+        margin-top: 23.5px;
+        margin-right: 22px;
+    }
+
+    .navbar-button-merch {
+        width: 126px;
+        height: 50px;
+        border-radius: 11px;
+        margin-top: 23.5px;
+        margin-right: 16px;
+    }
+
+    .navbar-button-merch p {
+        font-size: 23px;
+        margin-top: 8px;
+    }
+
+    .home-button {
+        min-width: 336px;
+        min-height: 88px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 23px;
+        text-transform: uppercase;
+        border-radius: 19px;
+        box-shadow: 0px 0px 50px rgba(255, 172, 48, 0.5);
+        transition: all 0.3s ease-in-out 0s;
+        cursor: pointer;
+        outline: none;
+        position: relative;
+        padding: 10px;
+        margin-top: 440px;
+        margin-bottom: 0px;
     }
 
     .info-title {
@@ -708,13 +770,72 @@ button:hover::after, button:focus::after {
 }
 
 @media only screen and (min-width: 1800px) {
-    .info-background-top {
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 200px 949.5px 0 949.5px;
-        border-color: transparent #E47153 transparent #E47153;
-        margin-top: -80px;
+    .navbar {
+        width: 100%;
+        height: 110px;
+        border-radius: 17px;
+        margin-top: 34px;
+    }
+    
+    .navbar-icon {
+        width: 55px;
+        height: 55px;
+        float: left;
+        margin-top: 26px;
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+    
+    .navbar-title {
+        font-size: 31px;
+        margin: 0;
+        padding-top: 36px;
+    }
+
+    .navbar-button-twitter {
+        width: 55px;
+        height: 55px;
+        border-radius: 11px;
+        margin-top: 26px;
+        margin-right: 22px;
+    }
+
+    .navbar-button-discord {
+        width: 55px;
+        height: 55px;
+        border-radius: 11px;
+        margin-top: 26px;
+        margin-right: 22px;
+    }
+
+    .navbar-button-merch {
+        width: 134px;
+        height: 55px;
+        border-radius: 11px;
+        margin-top: 26px;
+        margin-right: 18px;
+    }
+
+    .navbar-button-merch p {
+        font-size: 25px;
+        margin-top: 8px;
+    }
+
+    .home-button {
+        min-width: 370px;
+        min-height: 96px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+        text-transform: uppercase;
+        border-radius: 20px;
+        box-shadow: 0px 0px 50px rgba(255, 172, 48, 0.5);
+        transition: all 0.3s ease-in-out 0s;
+        cursor: pointer;
+        outline: none;
+        position: relative;
+        padding: 10px;
+        margin-top: 520px;
+        margin-bottom: 0px;
     }
 
     .info-title {
@@ -736,6 +857,33 @@ button:hover::after, button:focus::after {
         border-width: 200px 949.5px 0 949.5px;
         border-color: #E47153 #FDAD6B transparent #FDAD6B;
         margin-top: -20px;
+    }
+
+    .roadmap-line {
+        width: 5px;
+        border-radius: 4px;
+        margin-left: 6px;
+    }
+    
+    .roadmap-line-background {
+        width: 5px;
+        height: 0%;
+        border-radius: 4px;
+    }
+    
+    .roadmap-point {
+        width: 18px;
+        height: 18px;
+        border-radius: 3px;
+        transform: rotate(-45deg);
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .roadmap-point-background {
+        width: 18px;
+        height: 18px;
+        border-radius: 3px;
     }
 
     .roadmap-case h6 {

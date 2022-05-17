@@ -1,3 +1,23 @@
+$(document).ready(function() {
+  var width = $(window).width() / 2;
+  var height = 200;
+
+  $('.info-background-top').css("border-width", height + "px " + width + "px 0 " + width + "px");
+  $('.info-background-bottom').css("border-width", height + "px " + width + "px 0 " + width + "px");
+  $('.roadmap-background-bottom').css("border-width", height + "px " + width + "px 0 " + width + "px");
+});
+
+
+$( window ).resize(function() {
+  var width = $(window).width() / 2;
+  var height = 200;
+
+  $('.info-background-top').css("border-width", height + "px " + width + "px 0 " + width + "px");
+  $('.info-background-bottom').css("border-width", height + "px " + width + "px 0 " + width + "px");
+  $('.roadmap-background-bottom').css("border-width", height + "px " + width + "px 0 " + width + "px");
+});
+
+
 var var1 = false
 var var2 = false
 var var3 = false
@@ -9,7 +29,7 @@ $(document).scroll(function() {
     $('#info-picture').animate({'opacity':'1'}, 400);
   }
 
-  if ($(window).scrollTop() > 1700){
+  if ($(window).scrollTop() > 1650){
     if (var1 == false) {
       var1 = true;
 
@@ -27,7 +47,7 @@ $(document).scroll(function() {
     }
   }
 
-  if ($(window).scrollTop() > 2050){
+  if ($(window).scrollTop() > 2000){
     if (var2 == false) {
       var2 = true;
 
@@ -45,7 +65,7 @@ $(document).scroll(function() {
     }
   }
 
-  if ($(window).scrollTop() > 2300){
+  if ($(window).scrollTop() > 2250){
     if (var3 == false) {
       var3 = true;
 
@@ -63,7 +83,7 @@ $(document).scroll(function() {
     }
   }
 
-  if ($(window).scrollTop() > 2650){
+  if ($(window).scrollTop() > 2550){
     if (var4 == false) {
       var4 = true;
 
@@ -81,7 +101,7 @@ $(document).scroll(function() {
     }
   }
 
-  if ($(window).scrollTop() > 2850){
+  if ($(window).scrollTop() > 2800){
     if (var5 == false) {
       var5 = true;
 
