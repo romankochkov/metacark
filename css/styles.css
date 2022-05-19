@@ -96,7 +96,7 @@ body {
     width: 28px;
     height: 28px;
     position: absolute;
-    top: 50%;
+    top: 49%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -165,7 +165,7 @@ button::before {
     transition: all .3s ease-in-out 0s;
 }
   
-.home-button:hover, .button:focus {
+.home-button:hover, .home-button:focus {
     background: #FDAD6B;
     color: #fff;
     transform: translateY(-8px);
@@ -800,12 +800,30 @@ button:hover::after, button:focus::after {
         margin-right: 22px;
     }
 
+    .navbar-button-twitter img {
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        top: 50%;
+        left: 51%;
+        transform: translate(-50%, -50%);
+    }
+
     .navbar-button-discord {
         width: 55px;
         height: 55px;
         border-radius: 11px;
         margin-top: 26px;
         margin-right: 22px;
+    }
+
+    .navbar-button-discord img {
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        top: 49%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .navbar-button-merch {
