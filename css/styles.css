@@ -502,9 +502,84 @@ button:hover::after, button:focus::after {
     transform: translate(-50%, -50%);
 }
 
+.footer-button-opensea {
+    width: 90%;
+    height: 70px;
+    background: #fff;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 18px;
+    margin-left: 5%;
+    margin-top: 120px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.footer-button-opensea:hover {
+    box-shadow: 0px 0px 40px rgba(255, 172, 48, 0.5);
+}
+
+.footer-button-opensea p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #FDAD6B;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.footer-button-community {
+    width: 100%;
+    height: 70px;
+    background: #fff;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 18px;
+    margin-top: 120px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.footer-button-community:hover {
+    box-shadow: 0px 0px 40px rgba(255, 172, 48, 0.5);
+}
+
+.footer-button-community p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #FDAD6B;
+    text-align: center;
+    padding-top: 18px;
+    cursor: pointer;
+}
+
+.footer-button-merch {
+    width: 90%;
+    height: 70px;
+    background: #fff;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 18px;
+    margin-top: 120px;
+    margin-left: 5%;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.footer-button-merch:hover {
+    box-shadow: 0px 0px 40px rgba(255, 172, 48, 0.5);
+}
+
+.footer-button-merch p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #FDAD6B;
+    text-align: center;
+    padding-top: 18px;
+}
+
 .footer-background {
     background: #FDAD6B;
-    margin-top: -20px;
+    margin-top: -10px;
     margin-bottom: -20px;
 }
 
@@ -703,7 +778,7 @@ button:hover::after, button:focus::after {
 
     .roadmap-title {
         font-size: 50px;
-        padding-bottom: 6px;
+        padding-bottom: 8px;
     }
     
     .roadmap-description {
@@ -731,6 +806,16 @@ button:hover::after, button:focus::after {
     .roadmap-case p {
         font-size: 17px;
         line-height: 26px;
+    }
+
+    .team-title {
+        font-size: 50px;
+        padding-bottom: 8px;
+    }
+    
+    .team-description {
+        font-size: 22px;
+        line-height: 32px;
     }
 
     .team-author {
@@ -766,6 +851,48 @@ button:hover::after, button:focus::after {
 
     .team-line {
         height: 389.6px;
+    }
+
+    .footer-button-opensea {
+        width: 90%;
+        height: 76px;
+        border-radius: 20px;
+        margin-top: 130px;
+    }
+    
+    .footer-button-opensea p {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+    
+    .footer-button-community {
+        width: 100%;
+        height: 76px;
+        border-radius: 20px;
+        margin-top: 130px;
+    }
+    
+    .footer-button-community p {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+    
+    .footer-button-merch {
+        width: 90%;
+        height: 76px;
+        border-radius: 20px;
+        margin-top: 130px;
+    }
+    
+    .footer-button-merch p {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+    .footer-background {
+        background: #FDAD6B;
+        margin-top: 0px;
+        margin-bottom: -20px;
     }
 }
 
@@ -877,6 +1004,16 @@ button:hover::after, button:focus::after {
         margin-top: -20px;
     }
 
+    .roadmap-title {
+        font-size: 52px;
+        padding-bottom: 10px;
+    }
+    
+    .roadmap-description {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
     .roadmap-line {
         width: 5px;
         border-radius: 4px;
@@ -926,6 +1063,16 @@ button:hover::after, button:focus::after {
         margin-top: -20px;
     }
 
+    .team-title {
+        font-size: 52px;
+        padding-bottom: 10px;
+    }
+    
+    .team-description {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
     .team-author {
         font-family: 'Poppins', sans-serif;
         font-weight: 600;
@@ -961,5 +1108,47 @@ button:hover::after, button:focus::after {
 
     .team-line {
         height: 424px;
+    }
+
+    .footer-button-opensea {
+        width: 90%;
+        height: 82px;
+        border-radius: 22px;
+        margin-top: 130px;
+    }
+    
+    .footer-button-opensea p {
+        font-size: 26px;
+        padding-top: 21px;
+    }
+    
+    .footer-button-community {
+        width: 100%;
+        height: 82px;
+        border-radius: 22px;
+        margin-top: 130px;
+    }
+    
+    .footer-button-community p {
+        font-size: 26px;
+        padding-top: 21px;
+    }
+    
+    .footer-button-merch {
+        width: 90%;
+        height: 82px;
+        border-radius: 22px;
+        margin-top: 130px;
+    }
+    
+    .footer-button-merch p {
+        font-size: 26px;
+        padding-top: 21px;
+    }
+
+    .footer-background {
+        background: #FDAD6B;
+        margin-top: 0px;
+        margin-bottom: -20px;
     }
 }
