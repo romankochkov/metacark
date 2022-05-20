@@ -48,6 +48,11 @@ body {
     cursor: pointer;
 }
 
+.navbar-button-twitter:hover {
+    transform: translateY(-5%);
+    box-shadow: 0px 0px 10px rgba(28, 30, 49, 0.40);
+}
+
 .navbar-button-twitter img {
     width: 28px;
     height: 28px;
@@ -89,7 +94,13 @@ body {
     float: right;
     margin-top: 21px;
     margin-right: 20px;
+    transition: 0.1s;
     cursor: pointer;
+}
+
+.navbar-button-discord:hover {
+    transform: translateY(-5%);
+    box-shadow: 0px 0px 10px rgba(28, 30, 49, 0.40);
 }
 
 .navbar-button-discord img {
@@ -115,6 +126,12 @@ body {
     background-repeat: no-repeat;
     cursor: pointer;
 }
+
+.navbar-button-merch:hover {
+    transform: translateY(-5%);
+    box-shadow: 0px 0px 10px rgba(28, 30, 49, 0.40);
+}
+
 .navbar-button-merch p {
     font-family: 'Poppins', sans-serif;
     font-size: 21px;
@@ -466,6 +483,11 @@ button:hover::after, button:focus::after {
     cursor: pointer;
 }
 
+.team-social:hover {
+    transform: translateY(-5%);
+    box-shadow: 0px 0px 10px rgba(28, 30, 49, 0.40);
+}
+
 .team-social img {
     width: 24px;
     height: 24px;
@@ -627,6 +649,11 @@ button:hover::after, button:focus::after {
     text-align: right;
     color: #E47153;
     margin-top: 0;
+    cursor: pointer;
+}
+
+.footer-nft:hover {
+    text-decoration: underline;
 }
 
 .footer-merch {
@@ -635,6 +662,11 @@ button:hover::after, button:focus::after {
     text-align: right;
     color: #fff;
     margin-top: 0;
+    cursor: pointer;
+}
+
+.footer-merch:hover {
+    text-decoration: underline;
 }
 
 .footer-terms {
@@ -643,6 +675,11 @@ button:hover::after, button:focus::after {
     text-align: right;
     color: #fff;
     margin-top: 0;
+    cursor: pointer;
+}
+
+.footer-terms:hover {
+    text-decoration: underline;
 }
 
 .footer-social {
@@ -655,6 +692,11 @@ button:hover::after, button:focus::after {
     position: relative;
     margin-top: 10px;
     cursor: pointer;
+}
+
+.footer-social:hover {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5%);
 }
 
 .footer-social img {
@@ -672,6 +714,11 @@ button:hover::after, button:focus::after {
     text-align: right;
     color: #fff;
     margin-top: 0;
+    cursor: pointer;
+}
+
+.footer-support:hover {
+    text-decoration: underline;
 }
 
 @media only screen and (min-width: 1700px) {
