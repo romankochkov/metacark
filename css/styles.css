@@ -534,6 +534,10 @@ button:hover::after, button:focus::after {
     margin-top: 120px;
     transition: 0.2s;
     cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .footer-button-opensea:hover {
@@ -558,6 +562,10 @@ button:hover::after, button:focus::after {
     margin-top: 120px;
     transition: 0.2s;
     cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .footer-button-community:hover {
@@ -584,6 +592,10 @@ button:hover::after, button:focus::after {
     margin-left: 5%;
     transition: 0.2s;
     cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .footer-button-merch:hover {
@@ -1125,8 +1137,8 @@ button:hover::after, button:focus::after {
         font-weight: 600;
         font-size: 36px;
         color: #fff;
-        margin-top: 20px;
-        margin-bottom: 25px;
+        margin-top: 0;
+        margin-bottom: 50px;
     }
     
     .team-bio {
@@ -1134,7 +1146,7 @@ button:hover::after, button:focus::after {
         line-height: 33px;
         color: rgba(255, 255, 255, 0.75);
         margin-top: 0;
-        margin-bottom: 25px;
+        margin-bottom: 50px;
     }
 
     .team-social {
